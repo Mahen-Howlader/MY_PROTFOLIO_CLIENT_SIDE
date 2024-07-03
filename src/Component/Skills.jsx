@@ -10,10 +10,10 @@ function Skills(props) {
                 </h2>
             </div>
 
-            <div className="md:flex flex-wrap justify-center space-y-10 md:space-y-0 mt-10 gap-5">
+            <div className="md:flex flex-wrap justify-center space-y-10 md:space-y-0 mt-10 gap-10 ">
                 {
                     skills.map((item, index) => {
-                        return <div key={index} className="bg-[#171721] p-5 rounded-lg w-8/12 mx-auto md:w-[550px] border border-[#8F00EF]">
+                        return <div key={index} className="bg-[#171721] p-5 border border-gray-500 rounded-lg w-8/12 mx-auto md:w-[550px] shadow-lg shadow-slate-600">
                             <h3 className="pb-5 text-center text-2xl font-semibold text-gray-300">{item.title}</h3>
                             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5">
                                 {

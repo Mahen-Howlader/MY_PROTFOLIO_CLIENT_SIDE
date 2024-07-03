@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 
 function Hero() {
     return (
-        <div className="  text-white max-w-[1200px] mx-auto md:h-[80vh] flex flex-col-reverse md:flex-row justify-center items-center">
+        <div className=" mt-10 text-white max-w-[1200px] mx-auto md:h-[80vh] flex flex-col-reverse md:flex-row justify-center items-center">
             <div className="md:w-1/2 space-y-1 md:space-y-4 p-3">
                 <h2 className="text-xl">HELLO, MY NAME IS</h2>
                 <h2 className="font-bold text-3xl md:text-6xl">Mahen Howlader</h2>
