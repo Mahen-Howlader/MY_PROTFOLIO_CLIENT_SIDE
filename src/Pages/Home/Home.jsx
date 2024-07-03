@@ -1,7 +1,11 @@
+import Hero from "../../Component/Hero";
+import Navbar from "../Shered/Navbar";
+
 function Home() {
     return (
         <div>
-            df
+            <Navbar></Navbar>
+            <Hero></Hero>
         </div>
     );
 }
