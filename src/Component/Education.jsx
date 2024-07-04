@@ -40,7 +40,7 @@ function Education(props) {
                         className="vertical-timeline-element--work "
                         contentStyle={{ background: 'black', color: '#fff', }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                        date="2022-26 - past"
+                        date="2018-19 - past"
                         iconStyle={{ background: '#16F2B3', color: '#0D1224' }}
 
                         icon={<FaSchool />}
