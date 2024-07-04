@@ -2,15 +2,14 @@ import { projectData } from "./Data/data";
 
 function Project() {
     return (
-        <div className="text-white mt-20 mx-auto max-w-[1200px]">
+        <div id="project" className="text-white mt-20 mx-auto max-w-[1200px]">
             <h1 className="text-4xl text-center font-bold pb-10">Latest Projects</h1>
 
-            <div className="grid grid-cols-3 gap-14 text-white">
+            <div className="grid px-5 md:px-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 text-white">
 
                 {
                     projectData?.map((item, index) => {
-                        console.log(item)
-                        return <div key={index} className="relative flex w-full max-w-[26rem] flex-col rounded-xl bg-[#171721] shadow-xl shadow-slate-500 bg-clip-border text-gray-700 shadow-lg">
+                        return <div key={index} className="relative flex w-full  flex-col rounded-xl bg-[#171721] shadow-xl shadow-slate-500 bg-clip-border text-gray-700 shadow-lg">
                             <div className="relative mx-4 mt-4 overflow-hidden  shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40">
                                 <img
                                     src={item?.img}

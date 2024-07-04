@@ -19,7 +19,7 @@ function Hero() {
                     speed={50}
                     repeat={Infinity}
                 /> */}
-                <h2 className="text-xl">I AM Web Developer</h2>
+                <h2 className="text-xl text-[#F8B90C]">I AM Web Developer</h2>
                 <h2 className="text-lg text-gray-400">From Dhaka, Bangladesh. I’m a Front End Web developer who is passionate about making error-free websites. I am good at WordPress. I love to talk with you about your unique. </h2>
 
                 <a href="https://docs.google.com/document/d/1pqX4yG4RELYfXzatZsl4Nu-OVh60w8wkKNdYZYYXWO4/edit" download title="Download CV" role="button" className="inline-flex items-center justify-center h-11 md:h-16 px-10 py-0 text-xl font-semibold text-center text-gray-200 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline" >
@@ -28,7 +28,7 @@ function Hero() {
 
             </div>
             <div className="w-1/2 flex justify-center">
-                <img className="w-[300px] sm:w-[500px]" src="https://i.ibb.co/VMcPkGn/hero.png" alt="" />
+                <img className="w-[300px] sm:w-[500px]" src="https://i.ibb.co/s6SKwrQ/Professional-Linked-In-Profile-Picture-1-removebg-preview.png" alt="" />
             </div>
         </div>
     );

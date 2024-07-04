@@ -2,7 +2,7 @@ import { skills } from "./Data/data";
 
 function Skills(props) {
     return (
-        <div className="mx-auto max-w-[1200px] text-white mt-20 ">
+        <div id="skills" className="mx-auto max-w-[1200px] text-white mt-20 ">
             <div className="space-y-2 ">
                 <h1 className="text-4xl text-center font-bold ">Skills</h1>
                 <h2 className="text-center  text-gray-400 w-1/2 mx-auto">
