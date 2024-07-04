@@ -123,3 +123,30 @@ export const skills = [
         ],
     },
 ];
+
+
+export const projectData = [
+    {
+        img : "https://i.ibb.co/584qGpf/Hoter.png",
+        title : "Payment Features: You can withdraw the payment every month if you want because the payment system is implemented here",
+        descripttion : "Payment Features: You can withdraw the payment every month if you want because the payment system is implemented here",
+        link : "https://dainty-jelly-3334f5.netlify.app/"
+    },
+    {
+        img : "https://i.ibb.co/4VRv2T5/travelproject.png",
+        title : "Payment Features: You can withdraw the payment every month if you want because the payment system is implemented here",
+        descripttion : "Payment Features: You can withdraw the payment every month if you want because the payment system is implemented here",
+        link : "https://travel-project-af997.web.app"
+    },
+    {
+        img : "https://i.ibb.co/pwMfh12/freelanchingproject.png",
+        title : "Payment Features: You can withdraw the payment every month if you want because the payment system is implemented here",
+        descripttion : "Payment Features: You can withdraw the payment every month if you want because the payment system is implemented here",
+        link : "https://assignment-11-80fe3.web.app"
+    },
+]
+
+
+
+
+
