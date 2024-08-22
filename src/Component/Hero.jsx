@@ -28,7 +28,7 @@ function Hero() {
 
             </div>
             <div className="w-1/2 flex justify-center">
-                <img className="w-[300px] sm:w-[500px]" src="https://i.ibb.co/s6SKwrQ/Professional-Linked-In-Profile-Picture-1-removebg-preview.png" alt="" />
+                <img className="w-[500px] border-2 border-white rounded-full sm:w-[500px]" src="https://i.ibb.co/58zXGPX/20240823-002006.png" alt="" />
             </div>
         </div>
     );
